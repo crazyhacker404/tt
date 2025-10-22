@@ -13,4 +13,5 @@ def check_expiration():
     if current_time > expiration_time:
         print(EXPIRE_MSG)
         sys.exit(1)
+    print('Try Dec Souk')
 check_expiration()
